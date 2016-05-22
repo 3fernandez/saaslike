@@ -12,8 +12,8 @@ test:
   <<: *default
   database: saaslike_test
 
-production:
-  <<: *default
-  database: saaslike_production
-  username: saaslike
-  password: <%= ENV['SAASLIKE_DATABASE_PASSWORD'] %>
+# production:
+#   <<: *default
+#   database: saaslike_production
+#   username: saaslike
+#   password: <%= ENV['SAASLIKE_DATABASE_PASSWORD'] %>
