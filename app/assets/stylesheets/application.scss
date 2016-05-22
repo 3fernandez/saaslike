@@ -1,3 +1,4 @@
 // bootstrap must be imported before
+//= require_tree ./controllers
 @import "bootstrap-sprockets";
 @import "bootstrap";
